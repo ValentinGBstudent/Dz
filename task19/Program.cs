@@ -11,7 +11,7 @@ int num = int.Parse(Console.ReadLine());
 char [] arr = num.ToString().ToCharArray();
 if((arr.Length < 5) || (arr.Length > 5))
 {
-    Console.Write("its not five digit nember");
+    Console.Write("its not five digit number");
 }
 else
 if((arr[0] == arr[4]) && (arr[1] == arr[3]))
